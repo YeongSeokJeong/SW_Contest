@@ -38,6 +38,6 @@
 Parking lot 		안드로이드 관련 소스코드
 Car detection Model 	차량 인식을 위한 모델
 parking.mp4		실험에서 사용한 영상
-FireBase			FireBase와 연동을 하기 위한 함수정의
+FireBase		FireBase와 연동을 하기 위한 함수정의
 ```
 
