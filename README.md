@@ -9,7 +9,7 @@
   - 정영석 : [Keras](https://keras.io)를 사용한 차량 인식용 딥러닝 모델 구축
   - 박석주 : [FireBase](https://firebase.google.com/?gclid=CjwKCAiAxMLvBRBNEiwAKhr-nJnx6oenASpgqeAwGWb-DwlxMgEyUU4FBliOgdqjEIyl7XBcbx6KKBoCKJwQAvD_BwE)를 사용한 데이터베이스 구축, 영상 데이터 전처리
   - 류요선 : 안드로이드 어플리케이션 제작
-  - 이연희 : 안드로이드 User Interface 보완, 보고서 및 포스터 작성으로 해줘
+  - 이연희 : 안드로이드 User Interface 보완, 보고서 및 포스터 제작
 ## 배경
 - 최근 대기 질 향상 및 보행자의 안전을 위한 “차 없는 거리” 사업이 부상
 - 대책이 마련되지 않은 채로 시행되고 있는 해당 사업은 주차 공간 부족과 같은 문제점을 야기하고 있다. 
@@ -22,13 +22,15 @@
 - 해당 정보를 동기화 한 후 모바일 어플리케이션을 통해 주차정보 제공
 - 어플리케이션상 자신 차량의 위치정보 제공 가능
 ## 핵심 문서
-| 파일명 | 기능|
-|--------|--------|
+|----|----|
 | Parking lot/App/manifests | 어플리케이션의 퍼미션 및 각종 기본설정 |
 | Parking lot/App/java/com.example.parkinglot | 어플리케이션의 각 엑티비티별 java 소스 모음 |
 | Parking lot/App/res/anim | 각종 애니메이션 효과 xml파일 |
-| Firebase/firebase | firebase를 사용한 데이터베이스 접근 |
-|Car detection Model/ | 모델 구조 |
+| Firebase/firebase.py | FireBase 실행을 위한 파일 |
+| Car detection Model/data_preprocessing.py | 모델 입력 전 전처리를 위한 모델 |
+| Car detection Model/make_model.py | 모델 정의 |
+| Car detection Model/train_model.py | 모델 훈련 |
+| Car detection Model/predict_model | 값 예측 후 |
 
 ## 디렉토리 구조
 ```
