@@ -22,6 +22,7 @@
 - 해당 정보를 동기화 한 후 모바일 어플리케이션을 통해 주차정보 제공
 - 어플리케이션상 자신 차량의 위치정보 제공 가능
 ## 핵심 문서
+| 파일명 | 파일 설명 |
 |----|----|
 | Parking lot/App/manifests | 어플리케이션의 퍼미션 및 각종 기본설정 |
 | Parking lot/App/java/com.example.parkinglot | 어플리케이션의 각 엑티비티별 java 소스 모음 |
@@ -30,7 +31,7 @@
 | Car detection Model/data_preprocessing.py | 모델 입력 전 전처리를 위한 모델 |
 | Car detection Model/make_model.py | 모델 정의 |
 | Car detection Model/train_model.py | 모델 훈련 |
-| Car detection Model/predict_model | 값 예측 후 |
+| Car detection Model/predict_model | 값 예측 후 서버에 올림 |
 
 ## 디렉토리 구조
 ```
